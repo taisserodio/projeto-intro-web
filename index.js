@@ -12,18 +12,18 @@ const verificouEmail; //boolean */
 //const idade1 = 33;
 //const verificouEmail1 = false;
 
-/*const maquiagem = "Base"
+/*const nome = "Base"
 const valor = 30.00 ;
 const ehLiquida = true ;
 const cor = [" bege claro ", "bege medio ", "escuro" ]
 
 
-const maquiagem1 = "Pó"
+const nome1 = "Pó"
 const valor01 = 20.00 ;
 const ehEmPó = true ;
 const cor1 = ["medio claro " , "medio" , "medio escuro"]
 
-const maquiagem2 = "Gloss"
+const nome2 = "Gloss"
 const valor02 = 10.00 ;
 const ehEmPó1 = false ;
 const cor2 = ["vermelho" , "rosa" , "nude" , "incolor"]*/
@@ -40,8 +40,8 @@ console.log(verificaEmails);
 /*4. Com um console.log, imprima o resultado de uma operação lógica que checa se todos os 
 valores de variáveis booleanas criadas até aqui são verdadeiras.*/
 
-//const verificaMaquiagem = (ehLiquida && ehEmPó && ehEmPó1)
-//console.log(verificaMaquiagem)
+//const verificanome = (ehLiquida && ehEmPó && ehEmPó1)
+//console.log(verificanome)
 
 /*Crie pelo menos mais uma característica para o item que você criou. 
 Esta característica deve ser um array. Mantenha o tipo de dado do array criado sempre o mesmo,
@@ -58,11 +58,11 @@ idade: 33
 verificou email?: false
 projetos: ["Projeto de HTML", "Projeto de CSS", "Projeto React"] */
 
-//const maiuscula = maquiagem.toUpperCase()
+//const maiuscula = nome.toUpperCase()
 
-//const maiscula1 = maquiagem1.toUpperCase()
+//const maiscula1 = nome1.toUpperCase()
 
-//const maiscula2 = maquiagem2.toUpperCase()
+//const maiscula2 = nome2.toUpperCase()
 
 /*console.log(maiuscula , valor , ehLiquida , cor)
 console.log(maiscula1 , valor01 , ehEmPó , cor1)
@@ -83,7 +83,7 @@ objeto1 = {
   } */
 
 //   Objeto1 = {
-//     maquiagem :"Base",
+//     nome :"Base",
 //     valor:30.00,
 //     ehLiquida:true,
 //     cor:["Bege claro" , "Bege medio" , "escuro"] 
@@ -91,28 +91,28 @@ objeto1 = {
 
 
 //   Objeto2 = {
-//     maquiagem  :"Pó",
+//     nome  :"Pó",
 //     valor : 20.00,
 //     ehEmPó : true,
 //     cor : ["medio claro" , "medio" , "medio escuro"]
 //   }
 
 //   Objeto3 = {
-//     maquiagem :"Gloss",
+//     nome :"Gloss",
 //     valor : 10.00,
 //     ehEmPó : false,
 //     cor : ["vermelho" , "rosa" , "nude" , "incolor"]
 //   }
 
 // //2. Crie um array para guardar os objetos. Este array deve estar vazio, por enquanto;
-// maquiagem=[]
+// nome=[]
 
 // //3. Adicione os objetos criados no item 1 ao array de objetos criado no item 2, 
 // //utilizando o push()
 // //Ao fim, você deve ter algo parecido com isso:
 
-//     //maquiagem.push(Objeto1,Objeto2,Objeto3)
-//     //console.log(maquiagem)
+//     //nome.push(Objeto1,Objeto2,Objeto3)
+//     //console.log(nome)
 
 // //4. Altere o item “Adicione os novos objetos no array de objetos, 
 // //utilizando o push()” (item 3), para criar uma verificação antes de dar o push. 
@@ -123,24 +123,24 @@ objeto1 = {
 // //e não faça o push
 
 // if (Objeto1.ehLiquida === true){
-//   maquiagem.push(Objeto1)
+//   nome.push(Objeto1)
 // }else {
-//   alert("Objeto1 não adcionado ao array maquiagem")
+//   alert("Objeto1 não adcionado ao array nome")
 // }
 
 // if(Objeto2.ehEmPó === true){
-//   maquiagem.push(Objeto2)
+//   nome.push(Objeto2)
 // }else{
-//   alert("Objeto2 não adcionado ao array maquiagem")
+//   alert("Objeto2 não adcionado ao array nome")
 // }
 
 // if(Objeto3.ehEmPó === true){
-//   maquiagem.push(Objeto3)
+//   nome.push(Objeto3)
 // }else{
-//   alert("Objeto não adcionado ao array maquiagem")
+//   alert("Objeto não adcionado ao array nome")
 // }
 
-// console.log(maquiagem)
+// console.log(nome)
 
 
 
@@ -154,10 +154,10 @@ objeto1 = {
 // guarde todos os valores da propriedade array do objeto em uma mesma string.
 // Utilize esta string no relatório.
 // Chamamos este processo de reescrever um código já escrito, de refatoração.
-/*maquiagem = []
+/*nome = []
 
 Objeto1 = {
-  maquiagem: "Base",
+  nome: "Base",
   valor: 30.00,
   ehLiquida: true,
   cor: ["  Bege claro  ", "  Bege medio  ", "  medio escuro"]
@@ -165,44 +165,44 @@ Objeto1 = {
 
 
 Objeto2 = {
-  maquiagem: "Pó",
+  nome: "Pó",
   valor: 20.00,
   ehEmPó: true,
   cor: ["  Medio claro  ", "Medio", "  Medio escuro"]
 }
 
 Objeto3 = {
-  maquiagem: "Gloss",
+  nome: "Gloss",
   valor: 10.00,
   ehEmPó: false,
   cor: ["  vermelho   ", "   rosa   ", "   nude   ", "   incolor   "]
 }
 
-maquiagem.push(Objeto2, Objeto1, Objeto3)
-console.log(maquiagem)
+nome.push(Objeto2, Objeto1, Objeto3)
+console.log(nome)
 
-let maquiagemString = " "
+let nomeString = " "
 for (let i = 0; i < Objeto1.cor.length; i++) {
-  maquiagemString = maquiagemString + Objeto1.cor[i]
+  nomeString = nomeString + Objeto1.cor[i]
 }
 
-console.log(maquiagemString)
+console.log(nomeString)
 
-//let maquiagemString2= " "
-maquiagemString = " "
+//let nomeString2= " "
+nomeString = " "
 for (let i = 0; i < Objeto2.cor.length; i++) {
-  maquiagemString = maquiagemString + Objeto2.cor[i]
+  nomeString = nomeString + Objeto2.cor[i]
 }
 
-console.log(maquiagemString)
+console.log(nomeString)
 
-//let maquiagemString3 = " "
-maquiagemString = " "
+//let nomeString3 = " "
+nomeString = " "
 for (let i = 0; i < Objeto3.cor.length; i++) {
-  maquiagemString = maquiagemString + Objeto3.cor[i]
+  nomeString = nomeString + Objeto3.cor[i]
 }
 
-console.log(maquiagemString)
+console.log(nomeString)
 
 */
 
@@ -218,21 +218,21 @@ console.log(maquiagemString)
 // -------->AQUI EH UM ARRAY DE MAQUIAGENS<--------
 /*let maquiagens = [
   {
-    maquiagem: "Base",
+    nome: "Base",
     valor: 30.00,
     ehEmPo: false,
     cores: ["Bege claro", "Bege medio", "escuro"],
     marca:"Boca Rosa"
   },
   {
-    maquiagem: "Pó",
+    nome: "Pó",
     valor: 20.00,
     ehEmPo: true,
     cores: ["  Medio claro  ", "Medio", "  Medio escuro"],
     marca:"Maybelline"
   },
   {
-    maquiagem: "Gloss",
+    nome: "Gloss",
     valor: 10.00,
     ehEmPo: false,
     cores: ["  vermelho   ", "   rosa   ", "   nude   ", "   incolor   "],
@@ -240,13 +240,13 @@ console.log(maquiagemString)
   }
 ]
 
-for (maquiagem01 of maquiagens) {
-  console.log('Maquiagem: ' + maquiagem01.maquiagem)
-  console.log('Valor: ' + maquiagem01.valor)
-  console.log('É em pó: ? ' + maquiagem01.ehEmPo)
-  console.log('Qual a marca: ? ' + maquiagem01.marca)
-  for (cor of maquiagem01.cores) {
-    console.log(`A cor da maquiagem é: ${cor}`)
+for (nome01 of maquiagens) {
+  console.log('nome: ' + nome01.nome)
+  console.log('Valor: ' + nome01.valor)
+  console.log('É em pó: ? ' + nome01.ehEmPo)
+  console.log('Qual a marca: ? ' + nome01.marca)
+  for (cor of nome01.cores) {
+    console.log(`A cor da nome é: ${cor}`)
   }
   console.log("----------------------");
 }
@@ -255,77 +255,77 @@ for (maquiagem01 of maquiagens) {
 
 // 3. Crie uma função que receba como parâmetro um objeto, e devolva a string do relatório
 // com os dados do objeto
-/*const maquiagem1 = {
-  maquiagem: "Base",
+/*const nome1 = {
+  nome: "Base",
   valor: 30.00,
   ehEmPo: false,
   cores: ["Bege claro", "Bege medio", "escuro"],
   marca:"Boca Rosa"
 }
 
-function relatorioMaquiagem(maquiagem1){
-    console.log('Maquiagem: ' + maquiagem1.maquiagem)
-    console.log('Valor: ' + maquiagem1.valor)
-    console.log('É em pó: ? ' + maquiagem1.ehEmPo)
-    console.log('Qual a marca: ? ' + maquiagem1.marca)
-    for (cor of maquiagem1.cores) {
-      console.log(`A cor da maquiagem é: ${cor}`)
+function relatorionome(nome1){
+    console.log('nome: ' + nome1.nome)
+    console.log('Valor: ' + nome1.valor)
+    console.log('É em pó: ? ' + nome1.ehEmPo)
+    console.log('Qual a marca: ? ' + nome1.marca)
+    for (cor of nome1.cores) {
+      console.log(`A cor da nome é: ${cor}`)
     }
 }
 
-relatorioMaquiagem(maquiagem1)*/
+relatorionome(nome1)*/
 
 // 4. Crie uma função que recebe um array de objetos e uma string.
 // Esta função deve retornar um objeto, e o objeto retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro. 
 //Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado
 
-let maquiagens = [
-  {
-    maquiagem: "Base",
-    valor: 30.00,
-    ehEmPo: false,
-    cores: ["Bege claro", "Bege medio", "escuro"],
-    marca:"Boca Rosa"
-  },
-  {
-    maquiagem: "Pó",
-    valor: 20.00,
-    ehEmPo: true,
-    cores: ["  Medio claro  ", "Medio", "  Medio escuro"],
-    marca:"Maybelline"
-  },
-  {
-    maquiagem: "Gloss",
-    valor: 10.00,
-    ehEmPo: false,
-    cores: ["  vermelho   ", "   rosa   ", "   nude   ", "   incolor   "],
-    marca:"Dior"
-  }
-]
+// let maquiagens = [
+//   {
+//     nome: "Base",
+//     valor: 30.00,
+//     ehEmPo: false,
+//     cores: ["Bege claro", "Bege medio", "escuro"],
+//     marca:"Boca Rosa"
+//   },
+//   {
+//     nome: "Pó",
+//     valor: 20.00,
+//     ehEmPo: true,
+//     cores: ["  Medio claro  ", "Medio", "  Medio escuro"],
+//     marca:"Maybelline"
+//   },
+//   {
+//     nome: "Gloss",
+//     valor: 10.00,
+//     ehEmPo: false,
+//     cores: ["  vermelho   ", "   rosa   ", "   nude   ", "   incolor   "],
+//     marca:"Dior"
+//   }
+// ]
 
-function verificaMaquiagem(maquiagens, nomeMaquiagem) {
-  let maq;
-  for (objetoMaquiagem of maquiagens) {
-    if (objetoMaquiagem.maquiagem === nomeMaquiagem) {
-      maq = objetoMaquiagem;
-    }
-  }
-  if (maq) {
-      console.log(maq)
-  } else {
-    alert("Objeto não encontrado")
-  }
-}
+// function verificanome(maquiagens, nomenome) {
+//   let maq;
+//   for (objetonome of maquiagens) {
+//     if (objetonome.nome === nomenome) {
+//       maq = objetonome;
+//     }
+//   }
+//   if (maq) {
+//       console.log(maq)
+//   } else {
+//     alert("Objeto não encontrado")
+//   }
+// }
 
-verificaMaquiagem(maquiagens, "Pó")
-
-
+// verificanome(maquiagens, "Pó")
 
 
 
 
 
-//***************************************************SEMANA   4******************************************************/
+
+
+//***************************************************SEMANA   4 e 5******************************************************/
 
 /*
 *1. Crie uma página HTML, e nesta página, dê um título para sua lista de itens;
@@ -336,8 +336,127 @@ verificaMaquiagem(maquiagens, "Pó")
 *6. Transforme o nome/título do item em um link para um artigo sobre este item (pode ser do google, de algum blog ou da Wikipédia)
 💡 Recomendamos adicionar imagens a seus itens agora. Ao fazer isso, lembre-se de criar mais uma propriedade String nos seus objetos, para guardar o caminho do link até a imagem.
 A partir do nosso exemplo de estilização, crie a identidade da sua página seguindo os passos abaixo:
-1. Estilize o cabeçalho da sua página com o mesmo título que está no <title>;
-2. Estilize o rodapé para sua página, e nele, coloque suas informações de contato (nome e github);
-3. Estilize a lista criada na semana passada, seguindo o padrão enviado;*/
+*1. Estilize o cabeçalho da sua página com o mesmo título que está no <title>;
+*2. Estilize o rodapé para sua página, e nele, coloque suas informações de contato (nome e github);
+*3. Estilize a lista criada na semana passada, seguindo o padrão enviado;*/
+//***************************************************SEMANA   6******************************************************/
 
+//*1. Altere seu código para que a tela de lista de itens crie os elementos da lista através de manipulação do DOM.// Atualmente, seus elementos estão criados no HTML e no CSS de forma estática, sem que exista interação entre HTML 
+// e CSS e o Script que criamos. A ideia é que agora, os dados que compõem os elementos HTML devem ser criados a partir do
+//  nosso código JS. Para isso, devemos manipular os objetos do HTML e do CSS utilizando o DOM.
+// 2. Utilize a função de busca criada no item 2 da semana 6 para fazer com que ao digitar um campo no input e apertar o botão,
+// apenas os itens com nome igual ao da busca sejam renderizados na tela.
 
+let listaDeMaquiagens = [
+  {
+    nome: "Base",
+    link: "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia",
+    imagem: "base-boca-rosa-2.jpg",
+    preco: "R$ 30,00",
+    ehEmPo: false,
+    cores: ["Bege claro", "Bege medio", "escuro"],
+    marca: "Boca Rosa"
+  },
+  {
+    nome: "Pó",
+    link: "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia",
+    imagem: "po-2.jpg",
+    preco: "R$ 20,00",
+    ehEmPo: true,
+    cores: ["  Medio claro  ", "Medio", "  Medio escuro"],
+    marca: "Maybelline"
+  },
+  {
+    nome: "Gloss",
+    link: "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia",
+    imagem: "glossDi.jpg",
+    preco: "R$ 10,00",
+    ehEmPo: false,
+    cores: ["  vermelho   ", "   rosa   ", "   nude   ", "   incolor   "],
+    marca: "Dior"
+  },
+  {
+    nome: "Base",
+    link: "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia",
+    imagem: "base-boca-rosa-2.jpg",
+    preco: "R$ 30,00",
+    ehEmPo: false,
+    cores: ["Bege claro", "Bege medio", "escuro"],
+    marca: "Boca Rosa"
+  },
+  {
+    nome: "Pó",
+    link: "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia",
+    imagem: "po-2.jpg",
+    preco: "R$ 20,00",
+    ehEmPo: true,
+    cores: ["  Medio claro  ", "Medio", "  Medio escuro"],
+    marca: "Maybelline"
+  },
+  {
+    nome: "Gloss",
+    link: "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia",
+    imagem: "glossDi.jpg",
+    preco: "R$ 10,00",
+    ehEmPo: false,
+    cores: ["  vermelho   ", "   rosa   ", "   nude   ", "   incolor   "],
+    marca: "Dior"
+  }
+]
+
+// Ex: 1
+function listarMaquiagens(maquiagens) {
+  const container = document.getElementById("container");
+
+  for (let i = 0; i < maquiagens.length; i++) {
+
+    const section = document.createElement("section")
+
+    criarConteudoSection(section, maquiagens[i])
+
+    container.appendChild(section)
+
+  }
+
+}
+
+function criarConteudoSection(section, maquiagem) {
+  section.innerHTML += ` 
+    <div class="card">
+      <img src="${maquiagem.imagem}">     
+      <div class="card-content">
+        <div class="card-title">
+          <a href="${maquiagem.link}">${maquiagem.nome}</a>
+        </div>
+        <ul class="card-subtitle">
+            <li>Preço: <a>${maquiagem.preco}</a></li>
+            <li>Textura em Pó: <a>${maquiagem.ehEmPo ? "Sim" : "Não"}</a></li>
+            <li>Cores: <a>${maquiagem.cores}</a></li>
+            <li>Marca: <a>${maquiagem.marca}</a></li>
+        </ul>  
+      </div>   
+    </div> 
+  `;
+}
+
+// Ex: 2
+function buscarMaquiagem() {
+  const inputBusca = document.getElementById("inputBusca").value;
+
+  const novaLista = listaDeMaquiagens.filter(l => l.nome === inputBusca);
+
+  if (novaLista.length > 0) {
+    limpaLista();
+    listarMaquiagens(novaLista);
+  } else {
+    limpaLista();
+    listarMaquiagens(listaDeMaquiagens);
+  }
+}
+
+function limpaLista() {
+  const container = document.getElementById("container");
+  container.innerHTML = "";
+}
+
+listarMaquiagens(listaDeMaquiagens)
